@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Destination Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- =================== NAVBAR =================== -->
+<header>
+    <nav class="navbar">
+        <div class="logo">TravelX</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li><a href="#map">Map</a></li>
+            <li><a href="#itinerary">Itinerary</a></li>
+            <li><a href="#weather">Weather</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-btn">☰</div>
+    </nav>
+</header>
+
+<!-- =================== HERO SECTION =================== -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1 class="hero-title">Explore India</h1>
+        <p class="hero-tagline">Find your next adventure with curated destinations & perfect itineraries.</p>
+        <p class="hero-tagline">Trusted by thousands of travelers.</p>
+
+        <div class="hero-search">
+            <input type="text" placeholder="Where do you want to go?">
+            <button>Search</button>
+        </div>
+    </div>
+</section>
+
+<!-- =================== EXPLORE COUNTRY CARDS =================== -->
+<section id="explore" class="explore-section dark-bg">
+  <h2 class="section-title light">Top Destinations</h2>
+
+  <div class="country-grid">
+   
+
+
+    <div class="country-card">
+      <span class="badge bestseller">Best Seller</span>
+
+      <img src="/images/udaipur.jpg" alt="Udaipur">
+
+      <div class="card-overlay">
+        <h3>Udaipur</h3>
+        <span class="best-time">Best Time: Nov–Feb</span>
+
+        <div class="package-info">
+          <span class="duration">3N / 4D</span>
+          <span class="price">₹18,999</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="country-card">
+      <span class="badge">Popular</span>
+
+      <img src="/images/manali.jpg" alt="Manali">
+
+      <div class="card-overlay">
+        <h3>Manali</h3>
+        <span class="best-time">Best Time: Mar–Jun</span>
+
+        <div class="package-info">
+          <span class="duration">4N / 5D</span>
+          <span class="price">₹22,499</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="country-card">
+        <span class="badge">New</span>
+      <img src="/images/darjeeling.jpg">
+
+      <div class="card-overlay">
+        <h3>Darjeeling</h3>
+        <span class="best-time">Best Time: Oct–Nov</span>
+
+        <div class="package-info">
+          <span class="duration">2N / 3D</span>
+          <span class="price">₹14,999</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="country-card">
+      <span class="badge bestseller">Best Seller</span>
+
+      <img src="/images/goa.webp" alt="Goa">
+
+      <div class="card-overlay">
+        <h3>Goa</h3>
+        <span class="best-time">Best Time: Oct–Mar</span>
+
+        <div class="package-info">
+          <span class="duration">3N / 4D</span>
+          <span class="price">₹19,499</span>
+        </div>
+      </div>
+    </div>
+     <div class="explore-more-wrapper">
+  <a href="#packages" class="explore-more-btn">
+    Explore More
+  </a>
+</div>
+
+  </div>
+</section>
+
+
+
+<!-- =================== MAP SECTION =================== -->
+<section id="map" class="map-section">
+    <h2 class="section-title">Interactive Map</h2>
+    <div class="map-container">
+         <iframe
+    src="https://www.google.com/maps?q=LOCATION&output=embed
+"
+    width="100%"
+    height="450"
+    style="border:0; border-radius:12px;"
+    loading="lazy">
+  </iframe>
+    </div>
+</section>
+
+
+
+<!-- =================== ITINERARY =================== -->
+<section id="itinerary" class="itinerary-section">
+    <h2 class="section-title">Itinerary</h2>
+
+    <div class="itinerary-card">
+        <h3>5-Day Udaipur Itinerary</h3>
+        <ul>
+            <li><span>Day 1:</span> Arrival & old city vibes</li>
+            <li><span>Day 2:</span> Royal Udaipur</li>
+            <li><span>Day 3:</span>Nature and Peace</li>
+            <li><span>Day 4:</span>Chittorgarh Fort</li>
+            <li><span>Day 5:</span>Chill & Goodbye</li>
+        </ul>
+        <button class="btn-primary">Download Plan</button>
+    </div>
+    
+</section>
+
+<!-- =================== WEATHER SECTION =================== -->
+<section id="weather" class="weather-section">
+    <h2 class="section-title">Live Weather Preview</h2>
+
+    <div class="weather-grid">
+
+        <div class="weather-card">
+            <h3>Rajasthan</h3>
+            <p>⛅15°C</p>
+        </div>
+
+        <div class="weather-card">
+            <h3>Goa</h3>
+            <p>☀️29°C</p>
+        </div>
+
+        <div class="weather-card">
+            <h3>West Bengal</h3>
+            <p>☀️20°C</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- =================== CONTACT SECTION =================== -->
+<section id="contact" class="contact-section">
+    <h2 class="section-title">Contact Us</h2>
+
+    <form class="contact-form">
+        <div class="input-box">
+            <input type="text" required>
+            <label>Name</label>
+        </div>
+
+        <div class="input-box">
+            <input type="email" required>
+            <label>Email</label>
+        </div>
+
+        <div class="input-box">
+            <textarea required></textarea>
+            <label>Your Message</label>
+        </div>
+
+        <button class="btn-primary">Send Message</button>
+    </form>
+</section>
+
+<!-- =================== FOOTER =================== -->
+<footer>
+    <p>© 2026 TravelX — Designed for CSS Showdown</p>
+</footer>
+
+<script>
+    // Smooth Mobile Menu Toggle
+    const menuBtn = document.querySelector('.menu-btn');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuBtn.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+</script>
+
+</body>
+</html>
